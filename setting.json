@@ -1,0 +1,72 @@
+{
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // vimのescをjjに割当て
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    // vimクリップボード
+    "vim.useSystemClipboard": true,
+    // 大きく表示
+    "window.zoomLevel": 2,
+    // コーディング用フォント
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    // 保存したときのアクション
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // "javascript.implicitProjectConfig.experimentalDecorators": true,
+    // カラーテーマ
+    "workbench.colorTheme": "Ariake Dark",
+    "editor.tokenColorCustomizations": {
+        "[Ariake Dark]": {
+            "comments": "#979faa",
+        }
+    },
+    // アイコン
+    "workbench.iconTheme": "material-icon-theme",
+    // 最終行に行追加
+    "files.trimFinalNewlines": true,
+    // 空白削除
+    "files.trimTrailingWhitespace": true,
+    // 最終行に改行を自動挿入
+    "html.format.endWithNewline": true,
+    "files.insertFinalNewline": true,
+    // 右にでるミニマップ非表示
+    "editor.minimap.enabled": false,
+    // ライブシェア
+    "liveshare.featureSet": "insiders",
+    // フォーマット
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "html.format.wrapAttributes": "force-aligned",
+    // 自動インポート
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    // ファイル移動時にimportを整理
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ドラッグアンドドロップで移動したとき確認しない
+    "explorer.confirmDragAndDrop": false,
+    // Path Intellisense有効にするための設定
+    "typescript.suggest.paths": false,
+    // 一定時間経過後に自動で保存
+    "files.autoSave": "afterDelay",
+}
+
